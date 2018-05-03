@@ -1,2 +1,9 @@
-# detect-eme
-Detect EME! (Encrypted Media Extensions)
+### Start the server
+```
+yarn start
+```
+
+### Create a build
+```
+yarn build
+```
