@@ -2,6 +2,15 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
 
+  entry: {
+    'detect-eme': './src/js/detect-eme.js',
+    'index': './src/js/index.js',
+  },
+
+  output: {
+    filename: '[name].js'
+  },
+
   devServer: {
     https: true
   },
